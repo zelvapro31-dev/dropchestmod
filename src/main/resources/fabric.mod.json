@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "dropmod",
+  "version": "",
+  "name": "Drop Chest Items",
+  "description": "Sand?ktaki e?yalar? tek t?kla yere atma modu",
+  "authors": [ "Developer" ],
+  "contact": {},
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.example.dropmod.DropChestItemsMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": ">=1.20.4",
+    "java": ">=17",
+    "fabric-api": "*"
+  }
+}
